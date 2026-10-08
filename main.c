@@ -36,5 +36,14 @@ int main() {
     double myDouble = 20;
 
     printf("%.3f and %.1lf", myFloat, myDouble);
+
+    int myInt;
+    char myChar;
+    float my_float;
+    double my_double;
+    printf("%zu\n", sizeof(myInt));
+    printf("%zu\n", sizeof(myChar));
+    printf("%zu\n", sizeof(my_float));
+    printf("%zu\n", sizeof(my_double));
     return 0;
 }
