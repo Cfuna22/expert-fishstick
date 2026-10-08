@@ -9,6 +9,11 @@ int main() {
     printf("%c\n", name);
     printf("%f\n", Mynum);
 
-    printf("this is my Number: %d and this is my Letter: %c", today, name);
+    printf("this is my Number: %d and this is my Letter: %c\n", today, name);
+
+    int number = 10;
+    int otherNumber = 15;
+    number = otherNumber;
+    printf("%d",number);
     return 0;
 }
