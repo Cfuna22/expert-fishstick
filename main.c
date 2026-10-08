@@ -8,5 +8,7 @@ int main() {
     printf("%d\n", today);
     printf("%c\n", name);
     printf("%f\n", Mynum);
+
+    printf("this is my Number: %d and this is my Letter: %c", today, name);
     return 0;
 }
