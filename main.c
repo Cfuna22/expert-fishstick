@@ -13,7 +13,7 @@ int main() {
 
     int number = 10;
     int otherNumber = 15;
-    number = otherNumber;
+    number = otherNumber + number;
     printf("%d",number);
     return 0;
 }
