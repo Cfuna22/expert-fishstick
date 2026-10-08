@@ -14,6 +14,14 @@ int main() {
     int number = 10;
     int otherNumber = 15;
     number = otherNumber + number;
-    printf("%d",number);
+    printf("%d\n",number);
+
+    int x = 2, y = 6, z = 10;
+    printf("%d\n", x+y+z);
+
+    int length = 10;
+    int width = 6;
+    int area;
+    area = length * width;
     return 0;
 }
