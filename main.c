@@ -26,5 +26,10 @@ int main() {
     printf("Length is %d\n", length);
     printf("Width is %d\n", width);
     printf("Area of the rectangle is %d\n", area);
+
+    char a = 65, b = 66, c = 67;
+    printf("%c", a);
+    printf("%c", b);
+    printf("%c", c);
     return 0;
 }
