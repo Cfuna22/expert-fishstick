@@ -2,6 +2,11 @@
 
 int main() {
     char name[] = "Abel";
-    printf("Hello %s", name);
+    printf("Hello\n", name);
+    float Mynum = 90.9;
+    int today = 20;
+    printf("%d\n", today);
+    printf("%c\n", name);
+    printf("%f\n", Mynum);
     return 0;
 }
