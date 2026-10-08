@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char name[] = "Abel";
-    printf("Hello\n", name);
+    char name = 'A';
+    printf("Hello%c\n", name);
     float Mynum = 90.9;
     int today = 20;
     printf("%d\n", today);
