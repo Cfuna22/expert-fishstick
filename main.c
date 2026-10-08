@@ -30,6 +30,11 @@ int main() {
     char a = 65, b = 66, c = 67;
     printf("%c", a);
     printf("%c", b);
-    printf("%c", c);
+    printf("%c\n", c);
+
+    float myFloat = 6;
+    double myDouble = 20;
+
+    printf("%.3f and %.1lf", myFloat, myDouble);
     return 0;
 }
