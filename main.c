@@ -48,5 +48,11 @@ int main() {
 
     float sum = (float) 12 / 7;
     printf("%f\n", sum);
+
+    int maxScore = 30;
+    int userScore = 25;
+
+    float percentage = (float) userScore / maxScore * 100.00;
+    printf("%.2f\n", percentage);
     return 0;
 }
