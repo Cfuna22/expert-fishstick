@@ -45,5 +45,8 @@ int main() {
     printf("%zu\n", sizeof(myChar));
     printf("%zu\n", sizeof(my_float));
     printf("%zu\n", sizeof(my_double));
+
+    float sum = (float) 12 / 7;
+    printf("%f\n", sum);
     return 0;
 }
