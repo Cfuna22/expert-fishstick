@@ -70,7 +70,17 @@ int main() {
         printf("am old and you is not\n");
         printf("may age is %d and you are %d years old", myAge, someAge);
     } else {
-        printf("am young by %d years", someAge - myAge);
+        printf("am young by %d years\n", someAge - myAge);
+    }
+
+    int time = 16;
+    if (time < 12) {
+        printf("Good morning");
+    }
+    else if (time < 18) {
+        printf("Good day");
+    }else {
+        printf("Good Evening");
     }
 
     return 0;
