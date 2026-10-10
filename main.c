@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
     char name = 'A';
@@ -62,5 +63,6 @@ int main() {
     printf("%d\n", w);
 
     // Comparison Operators
+
     return 0;
 }
