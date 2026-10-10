@@ -62,7 +62,16 @@ int main() {
     w += 5;
     printf("%d\n", w);
 
-    // Comparison Operators
+    // Booleans
+    int myAge = 18;
+    int someAge = 20;
+
+    if (myAge >= someAge) {
+        printf("am old and you is not\n");
+        printf("may age is %d and you are %d years old", myAge, someAge);
+    } else {
+        printf("am young by %d years", someAge - myAge);
+    }
 
     return 0;
 }
