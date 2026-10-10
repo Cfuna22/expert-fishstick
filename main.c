@@ -78,10 +78,13 @@ int main() {
         printf("Good morning");
     }
     else if (time < 18) {
-        printf("Good day");
+        printf("Good day\n");
     }else {
-        printf("Good Evening");
+        printf("Good Evening\n");
     }
+
+    int myTime = 20;
+    (time < 12)? printf("good morning\n"): printf("good evening\n");
 
     return 0;
 }
