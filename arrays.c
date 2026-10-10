@@ -14,7 +14,7 @@ int main() {
         printf("%d\n", myNumber[i]);
     }
 
-    int age[] = {10, 25, 26, 40, 41, 45, 50, 69};
+    int age[] = {10, 25, 26, 40, 3, 56, 5, 41, 45, 50, 69};
 
     float avg, sum = 0;
     int j;
@@ -27,5 +27,16 @@ int main() {
 
     avg = sum / length;
 
-    printf("%.2f", avg);
+    printf("%.2f\n", avg);
+
+    int lowestAge = age[0];
+
+    for (j = 0; j < length2; j++) {
+        if (lowestAge > age[j]) {
+            lowestAge = age[j];
+        }
+    }
+    printf("%d\n", lowestAge);
+    
+    return 0;
 }
