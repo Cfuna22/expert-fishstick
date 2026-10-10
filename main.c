@@ -86,5 +86,18 @@ int main() {
     int myTime = 20;
     (time < 12)? printf("good morning\n"): printf("good evening\n");
 
+    int someAges = 20;
+    int ID = 1;
+
+    if (someAges >= 18) {
+        if (ID == 1) {
+            printf("You can enter\n");
+        } else {
+            printf("You need a valid ID\n");
+        }
+    } else {
+            printf("you can't enter\n");
+        }
+
     return 0;
 }
