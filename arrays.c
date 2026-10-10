@@ -42,6 +42,16 @@ int main() {
 
     int matrix [3] [4] = {{3, 6, 1, 9}, {4, 5, 8, 2}};
     printf("%d\n", matrix[0] [2]);
+
+    int matrix2 [3] [6]= {{2, 1, 3, 5, 6}, {4, 7, 9, 8, 0}};
+
+    int k, l;
+
+    for (k = 0; k < 6; k++) {
+        for (l = 0; l < 9; l++) {
+            printf("%d", matrix2[k] [l]);
+        }
+    }
     
     return 0;
 }
