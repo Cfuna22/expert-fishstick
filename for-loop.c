@@ -24,5 +24,17 @@ int main() {
     }
     printf("\n");
 
+    int z;
+
+    for (z = 1; z < 100; z++) {
+        if (z == 20) {
+            continue;
+        }
+        if (z == 89) {
+            break;
+        }
+    printf("%d\n", z);
+    }
+
     return 0;
 }
