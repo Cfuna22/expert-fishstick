@@ -37,6 +37,11 @@ int main() {
         }
     }
     printf("%d\n", lowestAge);
+
+    // Multidimensional Arrays
+
+    int matrix [3] [4] = {{3, 6, 1, 9}, {4, 5, 8, 2}};
+    printf("%d\n", matrix[0] [2]);
     
     return 0;
 }
