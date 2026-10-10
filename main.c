@@ -98,6 +98,21 @@ int main() {
     } else {
             printf("you can't enter\n");
         }
+    
+
+    int ageing = 20;
+    bool isCitizen = true;
+
+    if (ageing >= 18) {
+        printf("Old enough to vote.\n");
+        if (isCitizen == true) {
+            printf("And you are a citizen, so you can vote!\n");
+        } else {
+            printf("But you must be a citizen to vote.\n");
+        }
+    } else {
+        printf("Not old enough to vote.\n");
+    }
 
     return 0;
 }
