@@ -54,5 +54,9 @@ int main() {
 
     float percentage = (float) userScore / maxScore * 100.00;
     printf("user percantage is %.2f\n", percentage);
+
+    int w = 2;
+    ++w;
+    printf("%d\n", w);
     return 0;
 }
