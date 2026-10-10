@@ -13,4 +13,19 @@ int main() {
     for (i = 0; i < length; i++) {
         printf("%d\n", myNumber[i]);
     }
+
+    int age[] = {10, 25, 26, 40, 41, 45, 50, 69};
+
+    float avg, sum = 0;
+    int j;
+
+    int length2 = sizeof(age) / sizeof(age[0]);
+
+    for (j = 0; j < length2; j++) {
+        sum += age[i];
+    }
+
+    avg = sum / length;
+
+    printf("%.2f", avg);
 }
