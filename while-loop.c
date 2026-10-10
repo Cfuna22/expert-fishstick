@@ -12,5 +12,12 @@ int main() {
     do {
         printf("not there yet %d\n", countdown);
         countdown++;
-    } while (countdown < 120);
+    } while (countdown < 10);
+
+    int number;
+
+    do {
+        printf("Enter a positive number\n");
+        scanf("%d",&number);
+    } while (number > 0);
 }
