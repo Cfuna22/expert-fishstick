@@ -7,4 +7,5 @@ int main() {
 
     int length = sizeof(myNumber) / sizeof(myNumber[0]);
     printf("%d\n", length);
+    printf("%zu\n",sizeof(myNumber));
 }
