@@ -58,5 +58,9 @@ int main() {
     int w = 2;
     ++w;
     printf("%d\n", w);
+    w += 5;
+    printf("%d\n", w);
+
+    // Comparison Operators
     return 0;
 }
