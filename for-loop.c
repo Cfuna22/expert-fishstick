@@ -17,9 +17,10 @@ int main() {
 
     int j, k;
 
-    for (j = 0; j <= 5; j++) {
-        for (k = 0; k <= 5; k++);
-        printf("%d\n", j * k);
+    for (j = 1; j <= 3; ++j) {
+        for (k = 1; k <= 3; ++k){
+            printf("%d", j * k);
+        }
     }
     printf("\n");
 
