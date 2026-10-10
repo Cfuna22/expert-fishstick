@@ -14,4 +14,14 @@ int main() {
         sum = sum + number;
     }
     printf("sum is %d\n", sum);
+
+    int j, k;
+
+    for (j = 0; j <= 5; j++) {
+        for (k = 0; k <= 5; k++);
+        printf("%d\n", j * k);
+    }
+    printf("\n");
+
+    return 0;
 }
