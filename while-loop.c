@@ -8,4 +8,9 @@ int main() {
         countdown--;
     }
     printf("Happy new year\n");
+
+    do {
+        printf("not there yet %d\n", countdown);
+        countdown++;
+    } while (countdown < 120);
 }
