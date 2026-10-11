@@ -7,5 +7,11 @@ int main() {
     scanf("%d", &myNumber);
     printf("Your number is: %d\n", myNumber);
 
+    char greetings[30];
+
+    printf("Your name is: ");
+    scanf("%s", greetings);
+    printf("Hello %s", greetings);
+
     return 0;
 }
