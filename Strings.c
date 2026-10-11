@@ -1,4 +1,5 @@
 # include <stdio.h>
+# include <string.h>
 
 
 int main() {
@@ -19,5 +20,19 @@ int main() {
         printf("%c\n", myChar[i]);
     }
 
-    char txt[] = "We are the so-called \"Vikings\" from the north.";
+    char txt[] = "We are the \\so-called\\ \"Vikings\" from the north.";
+    printf("%s\n", txt);
+
+    char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    printf("%zu\n", strlen(alphabet));
+    printf("%zu\n", sizeof(alphabet));
+    
+    // Concatenate Strings
+
+    char str1[20] = "Hello";
+    char str2[] = "World";
+
+    strcat(str1, str2);
+
+    printf("%s\n", str1);
 }
