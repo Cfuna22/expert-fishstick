@@ -35,4 +35,12 @@ int main() {
     strcat(str1, str2);
 
     printf("%s\n", str1);
+
+    // Copy Strings
+    char today[20] = "YES";
+    char today2[20];
+
+    strcpy(today2, today);
+
+    printf("%s\n", today2);
 }
