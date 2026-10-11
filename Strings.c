@@ -18,4 +18,6 @@ int main() {
     for (i = 0; i < length; i++) {
         printf("%c\n", myChar[i]);
     }
+
+    char txt[] = "We are the so-called \"Vikings\" from the north.";
 }
