@@ -18,4 +18,14 @@ int main() {
     for (i = 0; i < 4; i++) {
         printf("%p\n", &numbers[i]);
     }
+
+    //  How Are Pointers Related to Arrays
+    // Ok, so what's the relationship between pointers and arrays? Well, in C, the name of an array, is actually a pointer to the first element of the array.
+
+    // Confused? Let's try to understand this better, and use our "memory address example" above again.
+
+    // The memory address of the first element is the same as the name of the array:
+
+    printf("%p\n", numbers);
+    printf("%p\n", &numbers[0]);
 }
