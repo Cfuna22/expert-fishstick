@@ -33,5 +33,5 @@ int main() {
     *numbers = 13;
     *(numbers + 4) = 17;
     printf("%d\n", *numbers);
-    printf("%d\n", *(numbers + 4));
+    printf("%d\n", *(numbers + 3));
 }
