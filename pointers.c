@@ -28,7 +28,7 @@ int main() {
 
     printf("%p\n", numbers);
     printf("%d\n", *numbers);
-    printf("%p\n", &numbers[0])
+    printf("%p\n", &numbers[0]);
 
     *numbers = 13;
     *(numbers + 4) = 17;
