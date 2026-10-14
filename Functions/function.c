@@ -1,5 +1,10 @@
 # include <stdio.h>
 
+void Today(void);
+int main() {
+    Today();
+}
+
 void Today() {
     int myAge = 20;
     char names[] = "Abel Sifuna";
@@ -11,6 +16,5 @@ void Today() {
     printf("%p\n", &myAgeptr);
 }
 
-int main() {
-    Today();
-}
+
+
