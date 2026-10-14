@@ -34,4 +34,22 @@ int main() {
     *(numbers + 4) = 17;
     printf("%d\n", *numbers);
     printf("%d\n", *(numbers + 4));
+
+    // Pointer to Pointer
+    int myNum = 10;
+    int *ptr2 = &myNum;
+    int **pptr = &ptr2;
+
+    printf("myNum = %d\n", myNum);
+    printf("ptr = %d\n", *ptr2);
+    printf("pptr = %d\n", **pptr);
+
+
+    int Age = 20;
+    int *Ageptr = &Age;
+    int **PPtr2 = &Ageptr;
+
+    **PPtr2 = 21;
+
+    printf("my age = %d\n", Age);
 }
