@@ -26,7 +26,7 @@ int main() {
 
     // The memory address of the first element is the same as the name of the array:
 
-    printf("%p\n", numbers);
+    printf("%p\n", numbers)
     printf("%d\n", *numbers);
     printf("%p\n", &numbers[0]);
 
