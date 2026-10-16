@@ -1,8 +1,11 @@
 # include <stdio.h>
 
 void Today(void);
+void myFunction(char name[]);
 int main() {
     Today();
+    char name[100];
+    myFunction(name);
 }
 
 void Today() {
@@ -16,5 +19,9 @@ void Today() {
     printf("%p\n", &myAgeptr);
 }
 
-
+void myFunction (char name[]) {
+    printf("enter your name: \n");
+    scanf("%s", name);
+    printf("Hello %s\n", name);
+}
 
