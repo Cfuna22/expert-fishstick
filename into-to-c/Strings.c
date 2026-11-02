@@ -12,7 +12,6 @@ int main() {
         printf("%c\n", greetings[i]);
     }
     
-
     char myChar[] = "Volvo";
 
     int length = sizeof(myChar) / sizeof(myChar[0]);
