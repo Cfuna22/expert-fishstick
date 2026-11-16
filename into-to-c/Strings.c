@@ -10,6 +10,7 @@ int main() {
     for (i = 0; i < 11; i++) {
         printf("%c\n", greetings[i]);
     }
+
     
     char myChar[] = "Volvo";
 
